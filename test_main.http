@@ -37,4 +37,15 @@ Content-Type: application/json
   "password": "111111"
 }
 
+###
+POST 127.0.0.1:8000/name
+Content-Type: application/json
+
+{
+  "surname": "张",
+  "length": "两字",
+  "gender": "男",
+  "other": "不要网红名称"
+}
+
 
